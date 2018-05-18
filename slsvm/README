@@ -1,0 +1,16 @@
+Hakan Bilen
+August 7, 2015
+
+This code implements the soft-max latent SVM formulation in BMVC 2014 paper:
+H. Bilen, M. Pedersoli, T. Tuytelaars. 
+Weakly Supervised Object Detection with Posterior Regularization
+
+Warning: The training code does not include the posteriors for symmetry and
+mutual exclusion yet but only the soft-max latent SVM formulation. 
+
+This code requires the optimization package from Mark Schmidt:
+http://www.cs.ubc.ca/~schmidtm/Software/minFunc_2012.zip
+
+To compile the code, run make
+
+A toy example is given in run_example.m

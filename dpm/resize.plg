@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: resize - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Jessica\AppData\Local\Temp\RSP7B3E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/resize.pdb" /debug /machine:I386 /out:"Debug/resize.exe" /pdbtype:sept 
+".\Debug\resize.obj"
+]
+Creating command line "link.exe @C:\Users\Jessica\AppData\Local\Temp\RSP7B3E.tmp"
+<h3>Output Window</h3>
+Linking...
+resize.obj : error LNK2001: unresolved external symbol _mxFree
+resize.obj : error LNK2001: unresolved external symbol _mxCalloc
+resize.obj : error LNK2001: unresolved external symbol _mxCreateNumericArray_730
+resize.obj : error LNK2001: unresolved external symbol _mxGetScalar
+resize.obj : error LNK2001: unresolved external symbol _mexErrMsgTxt
+resize.obj : error LNK2001: unresolved external symbol _mxGetClassID
+resize.obj : error LNK2001: unresolved external symbol _mxGetNumberOfDimensions_730
+resize.obj : error LNK2001: unresolved external symbol _mxGetDimensions_730
+resize.obj : error LNK2001: unresolved external symbol _mxGetPr
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/resize.exe : fatal error LNK1120: 10 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+resize.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

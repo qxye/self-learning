@@ -1,0 +1,1 @@
+mex -g SLSVMLossC2.c CFLAGS="\$CFLAGS -fopenmp" LDFLAGS="\$LDFLAGS -fopenmp"
