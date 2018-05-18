@@ -3,7 +3,7 @@
 ### Introduction
 A self-learning approach is proposed towards solving scene-specific pedestrian detection problem without any human¡¯ annotation involved. The selflearning approach is deployed as progressive steps of object discovery, object enforcement, and label propagation. 
 
-This is a matlab code of [Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model](https://arxiv.org/abs/1611.07544).copyright Reserved by University of Chinese Academy of Sciences.
+This is a matlab code of [Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model](https://arxiv.org/abs/1611.07544). Copyright Reserved by University of Chinese Academy of Sciences.
 It is free for academy purpose.
 Please contacet qxye@ucas.ac.cn if you have more problems
 
