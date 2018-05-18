@@ -1,5 +1,5 @@
 # Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model
-![Proposed Self-learning Framework.](proposed self-learning.png)
+![](proposed self-learning.png)
 ### Introduction
 A self-learning approach is proposed towards solving scene-specific pedestrian detection problem without any human¡¯ annotation involved. The selflearning approach is deployed as progressive steps of object discovery, object enforcement, and label propagation. 
 
