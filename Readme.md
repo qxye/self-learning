@@ -1,10 +1,9 @@
 # Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model
 
 ### Introduction
-A self-learning approach is proposed towards solving scene-specific pedestrian detection problem without any human¡¯ annotation involved. The selflearning approach is deployed as progressive steps of object
-discovery, object enforcement, and label propagation. In the learning procedure, object locations in each frame are treated as latent variables that are solved with a progressive latent model (PLM). Compared with conventional latent models, the proposed PLM incorporates a spatial regularization term to reduce ambiguities in object proposals and to enforce object localization, and also a graph-based lab propagation to discover harder instances in adjacent frames. With the difference of convex (DC) objective functions, PLM can be efficiently optimized with a concaveconvex programming and thus guaranteeing the stability of self-learning. Extensive experiments demonstrate that even without annotation the proposed self-learning approach outperforms weakly supervised learning approaches, while achieving comparable performance with transfer learning and fully supervised approaches.
+A self-learning approach is proposed towards solving scene-specific pedestrian detection problem without any human¡¯ annotation involved. The selflearning approach is deployed as progressive steps of object discovery, object enforcement, and label propagation. 
 
-This is a matlab code of [Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model](chrome-extension://cdonnmffkdaoajfknoeeecmchibpmkmg/assets/pdf/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1611.07544.pdf).copyright Reserved by University of Chinese Academy of Sciences.
+This is a matlab code of [Self-learning Scene-specific Pedestrian Detectors using a Progressive Latent Model](https://arxiv.org/abs/1611.07544).copyright Reserved by University of Chinese Academy of Sciences.
 It is free for academy purpose.
 Please contacet qxye@ucas.ac.cn if you have more problems
 
